@@ -60,4 +60,4 @@ for batchno = 1:floor(count/chunksz)
     created_flag = true;
     totalct = curr_dat_sz(end);
 end
-h5disp(savepath);
+h5disp(savepath);%
